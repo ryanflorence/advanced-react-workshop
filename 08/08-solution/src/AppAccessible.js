@@ -156,7 +156,11 @@ class Select extends React.Component {
         id,
         isSelected,
         isSelectionIndex,
-        onPreSelect: () => this.setState({ preSelectionIndex: index }),
+        onPreSelect: () => {
+          if (!isSelectionIndex) {
+            this.setState({ preSelectionIndex: index })
+          }
+        },
         onSelect: this.selectAndClose
       });
     });
