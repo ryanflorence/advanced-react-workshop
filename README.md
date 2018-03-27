@@ -31,7 +31,7 @@ This will install all the dependencies for all of the exercises.
 
 You can use npm but yarn's caching will make it a better experience.
 
-## Step 3 - Run an app
+## Step 4 - Run an app
 
 Each exercise is a separate app using [Create React App](https://github.com/facebookincubator/create-react-app).
 
