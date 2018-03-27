@@ -27,7 +27,7 @@ $ cd advanced-react-workshop
 $ yarn
 ```
 
-This will install all the dependencies for all of the exercises.
+This will install all the dependencies for all of the exercises, _it might take a while_.
 
 You can use npm but yarn's caching will make it a better experience.
 
