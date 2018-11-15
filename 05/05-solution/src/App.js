@@ -34,7 +34,7 @@ class GeoAddress extends React.Component {
     if (this.props.coords) this.fetchAddress();
   }
 
-  componentDidUpate(nextProps) {
+  componentDidUpdate(nextProps) {
     if (nextProps.coords !== this.props.coords) {
       this.fetchAddress();
     }
